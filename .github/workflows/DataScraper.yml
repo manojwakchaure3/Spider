@@ -1,7 +1,7 @@
 name: Daily Web Scraper
 on:
   schedule:
-  - cron: '0 5 * * *'   # Runs daily at 10:30 AM IST
+    - cron: '30 5 * * *'  # Runs daily at 11:00 AM IST
   workflow_dispatch:        # allows manual trigger
 permissions:
   contents: write  # :white_tick: Allow push access
@@ -45,6 +45,10 @@ jobs:
         done
         git commit -m "Update scraped data $(date '+%Y-%m-%d %H:%M:%S') [skip ci]" || echo "No changes to commit"
         git push
+
+
+
+
 
 
 
