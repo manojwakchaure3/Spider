@@ -1078,3 +1078,10 @@
 2026-03-14 06:06:51,303 [INFO] Scraping complete.
 2026-03-14 06:06:51,304 [INFO] Appending JSON to CSV...
 2026-03-14 06:06:51,338 [INFO] Append complete.
+2026-03-15 06:34:39,748 [INFO] Running Scrapy spider...
+2026-03-15 06:34:42,882 [WARNING] Scrapy Errors/Warnings:
+2026-03-15 06:34:41 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/scrapy/pipelines/__init__.py:47: ScrapyDeprecationWarning: LoanratesPipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+  self._check_mw_method_spider_arg(pipe.process_item)
+2026-03-15 06:34:42,883 [INFO] Scraping complete.
+2026-03-15 06:34:42,883 [INFO] Appending JSON to CSV...
+2026-03-15 06:34:42,916 [INFO] Append complete.
